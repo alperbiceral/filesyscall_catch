@@ -11,4 +11,3 @@ It traces `read`, `write`, `newfstatat`, `mkdir`, `mkdirat`, `unlinkat`, `open`,
 
 ## Notes
 - If you want to use this tool, you may want to run the following command since the output file depends on the kernel version: `bpftool btf dump file /sys/kernel/btf/vmlinux format c > ebpf/vmlinux.h`
-- 
